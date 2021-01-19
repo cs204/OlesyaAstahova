@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: #2D9740;
+    height: 250px;
+}
+#flex{
+    display:flex;
+    flex-direction:row;
+}
+nav{
+    background-color: #A0F6B0;
+    height: 719px;
+    width:250px;
+
+}
+main{
+
+    width:1500px;
+
+}
+
+#logo{
+    width:200px;
+    margin: 0 100px;
+}
+h1{
+    display: flex;
+    font-family:  'Comic Sans MS', sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+    margin:0 300px;
+    padding-top: 100px;
+}
+
+#menu{
+    font-family:  'Comic Sans MS', sans-serif;
+    margin:0 70px;
+    padding-top: 50px;
+}
+li{
+    font-family:  'Trattatello', sans-serif;
+    margin:0 60px;
+    padding-top: 25px;
+
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+#soc{
+    width:40px;
+    margin:0 35px;
+    padding-top: 390px;
+
+}
+#about{
+    font-family:  'Trattatello', sans-serif;
+    margin:0 100px;
+    padding-top: 45px;
+    font-size: 36px;
+    color: #2D9740;
+}
+p{
+    font-family:  'Trattatello', sans-serif;
+    margin:0 60px;
+    padding-top: 25px;
+    font-size: 26px;
+    line-height: 1.5;
+}
+#logo_but{
+    width:200px;
+    margin: 0 700px;
+    padding-top: 100px;
+}
+table{
+    margin: 20px 100px;
+    font-family:  'Trattatello', sans-serif;
+    background: #A0F6B0;
+    font-size: 26px;
+    border-collapse: collapse;
+   /*убираем пустые промежутки между ячейками*/
+    width: 600px;
+
+}
+tr {
+    font-size: 26px;
+    font-weight: normal;
+    background: #A0F6B0;
+    border-top: 4px solid green;
+    border-bottom: 1px solid white;
+    color: #039;
+    padding: 8px;
+}
+td {
+
+    background: #e8edff;
+    border-bottom: 1px solid white;
+    color: #669;
+    border-top: 1px solid transparent;
+    padding: 8px;
+}
+tr:hover td {
+    background: #ccddff;
+}
+#info{
+    width:50px;
+    margin: 0 30px;
+}
+
+.container {
+    padding: 16px;
+}
+
+
+input[type=text] {
+    width: 95%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+    font-size: 18px;
+}
+
+input[type=text]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+.sendbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 30%;
+    opacity: 0.9;
+    font-size: 18px;
+}
+
+.sendbtn :hover {
+    opacity:1;
+}
+
